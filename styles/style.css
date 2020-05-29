@@ -21,11 +21,12 @@ li {
   list-style: none;
 }
 
-.first{
+
+.first_yura{
   margin: 20px;
 }
 
-.hr1{
+.hr1_yura{
   border: none;
   border-radius: 2px; 
   background-color: #D2AC47; 
@@ -37,22 +38,21 @@ li {
   margin-top: 50px;
 }
 
-.second{
+.second_yura{
   background:#292929;
   height: 661px;
   width: 320px;
 }
 
-.div1{
+.div1_yura{
  
   padding: 50px;
 }
-.first_h1{
+.first_h1_yura{
   position: absolute;
 width: 40px;
-height: 36px;
 left: 20px;
-top: 250px;
+
 
 font-family: Raleway;
 font-style: normal;
@@ -60,17 +60,16 @@ font-weight: bold;
 font-size: 27px;
 line-height: 36px;
 letter-spacing: 0.025em;
-
+padding-top: 5px;
 color: #D2AC47;
 }
 
-.first_p{
+.first_p_yura{
 position: absolute;
 width: 150px;
-height: 24px;
 left: 66px;
 
-
+padding-top: 12px;
 font-family: Raleway;
 font-style: normal;
 font-weight: bold;
@@ -82,11 +81,13 @@ text-transform: uppercase;
 color: rgba(255, 255, 255, 0.6);
 }
 
-
-.second_h1{
+.div2_yura{
+  padding-top: 30px;
+}
+.second_h1_yura{
   position: absolute;
 width: 58px;
-height: 16px;
+
 left: 20px;
 
 
@@ -101,13 +102,12 @@ text-transform: uppercase;
 color: rgba(255, 255, 255, 0.9);
 }
 
-.second_p{
+.second_p_yura{
   position: absolute;
   width: 148px;
-  height: 89px;
   left: 20px;
-  top: 350px;
   
+  padding-top:30px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -119,13 +119,17 @@ color: rgba(255, 255, 255, 0.9);
   
   color: rgba(255, 255, 255, 0.7);
 }
-.third_h1{
+
+.div3_yura{
+  margin-top: 150px;
+}
+
+.third_h1_yura{
   position: absolute;
 width: 76px;
-height: 16px;
 left: 20px;
-top: 475px;
 
+padding-top: 25px;
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
@@ -137,12 +141,12 @@ text-transform: uppercase;
 color: rgba(255, 255, 255, 0.9);
 }
 
-.third_p{
+.third_p_yura{
   position: absolute;
 width: 152px;
-height: 16px;
 left: 20px;
-top: 520px;
+
+padding-top: 80px;
 
 font-family: Roboto;
 font-style: normal;
@@ -154,12 +158,12 @@ letter-spacing: 0.02em;
 color: #D2AC47;
 }
 
-.third_p1{
+.third_p1_yura{
   position: absolute;
 width: 106px;
-height: 16px;
 left: 20px;
-top: 550px;
+
+padding-top: 100px;
 
 font-family: Roboto;
 font-style: normal;
@@ -171,25 +175,34 @@ letter-spacing: 0.02em;
 color: rgba(255, 255, 255, 0.7);
 }
 
-.hr2{
+.div4_yura{
+    display: flex;
+    justify-content: space-around;
+    width: 50px;
+    margin-left: 70px;
+    margin-top: 294px;
+    color: white;
+}
+.hr2_yura{
   border: none;
 position: absolute;
 width: 30px;
 height: 2px;
 left: 20px;
-top: 600px;
+
 
 background-color: #D2AC47;
 border-radius: 2px;
 }
 
 
-.four_h1{
+.four_h1_yura{
   position: absolute;
 width: 230px;
-height: 16px;
+
 left: 20px;
-top: 650px;
+
+padding-top: 20px;
 
 font-family: Roboto;
 font-style: normal;
@@ -202,12 +215,13 @@ text-transform: uppercase;
 color: rgba(255, 255, 255, 0.9);
 }
 
-.div6 input{
+.div6_yura input{
   position: absolute;
-width: 280px;
+width: 270px;
 height: 50px;
 left: 20px;
-top: 700px;
+
+margin-top:50px;
 background: #292929;
 color: grey;
 border: 1px solid rgba(255, 255, 255, 0.3);
@@ -221,12 +235,12 @@ line-height: 26px;
 }
 
 
-.div7 input{
+.div7_yura input{
   position: absolute;
 width: 200px;
 height: 50px;
 left: 20px;
-top: 800px;
+margin-top:130px;
 border: black;
 background: #D2AC47;
 /* material shadow v2 */
@@ -240,23 +254,16 @@ color: #ffffff;
 box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.04);
 }
 
-.third{
+.third_yura{
   position: absolute;
 width: 320px;
-height: 50px;
-left: 0px;
-
 
 background: #111111;
   
 }
 
-.third h1{
-  position: absolute;
-width: 310px;
-height: 21px;
-left: 5px;
-top: 15px;
+.third_yura h1{
+  
 
 font-family: Roboto;
 font-style: normal;
@@ -266,17 +273,18 @@ line-height: 24px;
 /* or 200% */
 
 text-align: center;
+margin-top: 15px;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.4);
 
 }
 
 @media screen and (min-width:768px){
-  .first{
+  .first_yura{
     margin: 20px;
   }
   
-  .hr1{
+  .hr1_yura{
     position: absolute;
 width: 72px;
 height: 2px;
@@ -286,10 +294,10 @@ left: 129px;
     background-color: #D2AC47; 
     color: #D2AC47;      
   }
-  .h1{
+  .h1_yura{
     position: absolute;
 width: 333px;
-height: 84px;
+
 left: 232px;
 top: 50px;
 
@@ -302,10 +310,10 @@ letter-spacing: 0.01em;
 
 color: #212121;
   }
-  .p{
+  .p_yura{
     position: absolute;
 width: 319px;
-height: 117px;
+
 left: 232px;
 top: 150px;
 
@@ -320,7 +328,7 @@ letter-spacing: 0.02em;
 
 color: #212121;
   }
-  .second{
+  .second_yura{
     position: absolute;
 width: 768px;
 height: 454px;
@@ -330,16 +338,16 @@ top: 300px;
 background: #292929;
   }
   
-  .div1{
+  .div1_yura{
    
     padding: 50px;
   }
-  .first_h1{
+  .first_h1_yura{
     position: absolute;
   width: 40px;
-  height: 36px;
+  
   left: 129px;;
-  top: 42px;
+  
   
   font-family: Raleway;
   font-style: normal;
@@ -351,10 +359,10 @@ background: #292929;
   color: #D2AC47;
   }
   
-  .first_p{
+  .first_p_yura{
     position: absolute;
     width: 130px;
-    height: 24px;
+    
     left: 175px;
   
   
@@ -369,11 +377,14 @@ background: #292929;
   color: rgba(255, 255, 255, 0.6);
   }
   
+  .div2_yura{
+    padding-top: 30px;
+  }
   
-  .second_h1{
+  .second_h1_yura{
     position: absolute;
     width: 58px;
-    height: 16px;
+    
     left: 129px;
   
   
@@ -388,12 +399,12 @@ background: #292929;
   color: rgba(255, 255, 255, 0.9);
   }
   
-  .second_p{
+  .second_p_yura{
     position: absolute;
 width: 148px;
-height: 89px;
+
 left: 129px;
-    top: 130px;
+    
     
     font-family: Roboto;
     font-style: normal;
@@ -406,12 +417,17 @@ left: 129px;
     
     color: rgba(255, 255, 255, 0.7);
   }
-  .third_h1{
+
+  .div3_yura{
+    margin-top: 0px;
+  }
+  .third_h1_yura{
     position: absolute;
 width: 76px;
-height: 16px;
+
 left: 394px;
-  top: 100px;
+  
+padding-top: 0px;
   
   font-family: Roboto;
   font-style: normal;
@@ -424,12 +440,13 @@ left: 394px;
   color: rgba(255, 255, 255, 0.9);
   }
   
-  .third_p{
+  .third_p_yura{
     position: absolute;
 width: 152px;
-height: 16px;
+
 left: 394px;
-  top: 140px;
+  
+padding-top: 40px;
   
   font-family: Roboto;
   font-style: normal;
@@ -441,13 +458,12 @@ left: 394px;
   color: #D2AC47;
   }
   
-  .third_p1{
+  .third_p1_yura{
     position: absolute;
 width: 106px;
-height: 16px;
+
 left: 394px;
-  top: 170px;
-  
+  padding-top: 60px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -457,26 +473,33 @@ left: 394px;
   
   color: rgba(255, 255, 255, 0.7);
   }
-  
-  .hr2{
+  .div4_yura{
+    display: flex;
+    justify-content: space-around;
+    width: 50px;
+    margin-left: 450px;
+    margin-top: 107px;
+    color: white;
+}
+  .hr2_yura{
     border: none;
     position: absolute;
     width: 30px;
     height: 2px;
     left: 394px;
-  top: 205px;
+  
   
   background-color: #D2AC47;
   border-radius: 2px;
   }
   
-  .four_h1{
+  .four_h1_yura{
     position: absolute;
 width: 250px;
 height: 16px;
 left: 129px;
-  top: 270px;
   
+  padding-top: 70px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -488,12 +511,12 @@ left: 129px;
   color: rgba(255, 255, 255, 0.9);
   }
   
-  .div6 input{
+  .div6_yura input{
     position: absolute;
 width: 270px;
 height: 50px;
 left: 129px;
-  top: 300px;
+  margin-top: 100px;
   background: #292929;
   color: grey;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -507,12 +530,12 @@ left: 129px;
   }
   
   
-  .div7 input{
+  .div7_yura input{
     position: absolute;
 width: 200px;
 height: 50px;
 left: 411px;
-  top: 300px;
+  margin-top: 100px;
   border: black;
   background: #D2AC47;
   /* material shadow v2 */
@@ -526,23 +549,18 @@ left: 411px;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.04);
   }
   
-  .third{
+  .third_yura{
     position: absolute;
 width: 768px;
-height: 50px;
-left: 0px;
+
 top: 750px;
   
   background: #111111;
     
   }
   
-  .third h1{
-    position: absolute;
-width: 310px;
-height: 21px;
-left: 229px;
-  top: 15px;
+  .third_yura h1{
+    
   
   font-family: Roboto;
   font-style: normal;
@@ -559,11 +577,11 @@ left: 229px;
 }
 
 @media screen and (min-width:1280px){
-  .first{
+  .first_yura{
     margin: 20px;
   }
   
-  .hr1{
+  .hr1_yura{
     position: absolute;
 width: 72px;
 height: 2px;
@@ -573,10 +591,10 @@ left: 143px;
     background-color: #D2AC47; 
     color: #D2AC47;      
   }
-  .h1{
+  .h1_yura{
     position: absolute;
 width: 892px;
-height: 42px;
+
 left: 246px;;
 top: 50px;
 
@@ -589,10 +607,10 @@ letter-spacing: 0.01em;
 
 color: #212121;
   }
-  .p{
+  .p_yura{
     position: absolute;
 width: 800px;
-height: 66px;
+
 left: 246px;
 top: 150px;
 
@@ -607,26 +625,26 @@ letter-spacing: 0.02em;
 
 color: #212121;
   }
-  .second{
+  .second_yura{
     position: absolute;
 width: 1280px;
 height: 302px;
-left: 0px;
+
 top: 300px;
 
 background: #292929;
   }
   
-  .div1{
+  .div1_yura{
    
     padding: 50px;
   }
-  .first_h1{
+  .first_h1_yura{
     position: absolute;
 width: 40px;
-height: 36px;
+
 left: 142px;
-  top: 42px;
+  
   
   font-family: Raleway;
   font-style: normal;
@@ -638,10 +656,10 @@ left: 142px;
   color: #D2AC47;
   }
   
-  .first_p{
+  .first_p_yura{
     position: absolute;
 width: 150px;
-height: 24px;
+
 left: 188px;
   
   
@@ -657,10 +675,10 @@ left: 188px;
   }
   
   
-  .second_h1{
+  .second_h1_yura{
     position: absolute;
 width: 58px;
-height: 16px;
+
 left: 142px;
   
   
@@ -675,12 +693,12 @@ left: 142px;
   color: rgba(255, 255, 255, 0.9);
   }
   
-  .second_p{
+  .second_p_yura{
     position: absolute;
 width: 148px;
-height: 89px;
+
 left: 142px;
-    top: 130px;
+    
     
     font-family: Roboto;
     font-style: normal;
@@ -693,12 +711,12 @@ left: 142px;
     
     color: rgba(255, 255, 255, 0.7);
   }
-  .third_h1{
+  .third_h1_yura{
     position: absolute;
 width: 76px;
-height: 16px;
+
 left: 397px;
-  top: 100px;
+  
   
   font-family: Roboto;
   font-style: normal;
@@ -711,12 +729,12 @@ left: 397px;
   color: rgba(255, 255, 255, 0.9);
   }
   
-  .third_p{
+  .third_p_yura{
     position: absolute;
 width: 152px;
-height: 16px;
+
 left: 397px;
-  top: 140px;
+  
   
   font-family: Roboto;
   font-style: normal;
@@ -728,12 +746,12 @@ left: 397px;
   color: #D2AC47;
   }
   
-  .third_p1{
+  .third_p1_yura{
     position: absolute;
 width: 106px;
-height: 16px;
+
 left: 397px;
-  top: 170px;
+  
   
   font-family: Roboto;
   font-style: normal;
@@ -744,25 +762,33 @@ left: 397px;
   
   color: rgba(255, 255, 255, 0.7);
   }
-  
-  .hr2{
+  .div4_yura{
+    display: flex;
+    justify-content: space-around;
+    width: 50px;
+    margin-left:450px;
+    margin-top: 105px;
+    color: white;   
+}
+
+  .hr2_yura{
     border: none;
     position: absolute;
 width: 30px;
 height: 2px;
 left: 397px;
-  top: 205px;
+ 
   
   background-color: #D2AC47;
   border-radius: 2px;
   }
   
-  .four_h1{
+  .four_h1_yura{
     position: absolute;
 width: 250px;
-height: 16px;
+
 left: 655px;
-  top: 100px;
+  top: 60px;
   
   font-family: Roboto;
   font-style: normal;
@@ -775,12 +801,12 @@ left: 655px;
   color: rgba(255, 255, 255, 0.9);
   }
   
-  .div6 input{
+  .div6_yura input{
     position: absolute;
 width: 270px;
 height: 50px;
 left: 655px;
-  top: 130px;
+  top: 70px;
   background: #292929;
   color: grey;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -794,12 +820,12 @@ left: 655px;
   }
   
   
-  .div7 input{
+  .div7_yura input{
     position: absolute;
 width: 200px;
 height: 50px;
 left: 937px;
-  top: 130px;
+  top: 70px;
   border: black;
   background: #D2AC47;
   /* material shadow v2 */
@@ -813,23 +839,17 @@ left: 937px;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.04);
   }
   
-  .third{
+  .third_yura{
     position: absolute;
 width: 1280px;
-height: 50px;
-left: 0px;
+
 top: 600px;
   
   background: #111111;
     
   }
   
-  .third h1{
-    position: absolute;
-width: 310px;
-height: 21px;
-left: 485px;
-  top: 15px;
+  .third_yura h1{
   
   font-family: Roboto;
   font-style: normal;
