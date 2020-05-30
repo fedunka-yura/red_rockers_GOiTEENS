@@ -41,7 +41,7 @@ li {
 .second_yura{
   background:#292929;
   height: 661px;
-  width: 320px;
+  width: 100%;
 }
 
 .div1_yura{
@@ -50,7 +50,7 @@ li {
 }
 .first_h1_yura{
   position: absolute;
-width: 40px;
+
 left: 20px;
 
 
@@ -86,8 +86,6 @@ color: rgba(255, 255, 255, 0.6);
 }
 .second_h1_yura{
   position: absolute;
-width: 58px;
-
 left: 20px;
 
 
@@ -104,7 +102,7 @@ color: rgba(255, 255, 255, 0.9);
 
 .second_p_yura{
   position: absolute;
-  width: 148px;
+  width: 150px;
   left: 20px;
   
   padding-top:30px;
@@ -126,7 +124,7 @@ color: rgba(255, 255, 255, 0.9);
 
 .third_h1_yura{
   position: absolute;
-width: 76px;
+
 left: 20px;
 
 padding-top: 25px;
@@ -143,7 +141,7 @@ color: rgba(255, 255, 255, 0.9);
 
 .third_p_yura{
   position: absolute;
-width: 152px;
+
 left: 20px;
 
 padding-top: 80px;
@@ -160,7 +158,7 @@ color: #D2AC47;
 
 .third_p1_yura{
   position: absolute;
-width: 106px;
+
 left: 20px;
 
 padding-top: 100px;
@@ -198,7 +196,7 @@ border-radius: 2px;
 
 .four_h1_yura{
   position: absolute;
-width: 230px;
+
 
 left: 20px;
 
@@ -256,10 +254,9 @@ box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.08), 0p
 
 .third_yura{
   position: absolute;
-width: 320px;
+width: 100%;
 
 background: #111111;
-  
 }
 
 .third_yura h1{
@@ -297,7 +294,6 @@ left: 129px;
   .h1_yura{
     position: absolute;
 width: 333px;
-
 left: 232px;
 top: 50px;
 
@@ -330,22 +326,18 @@ color: #212121;
   }
   .second_yura{
     position: absolute;
-width: 768px;
+width: 100%;
 height: 454px;
-left: 0px;
 top: 300px;
 
 background: #292929;
   }
   
   .div1_yura{
-   
     padding: 50px;
   }
   .first_h1_yura{
     position: absolute;
-  width: 40px;
-  
   left: 129px;;
   
   
@@ -361,8 +353,6 @@ background: #292929;
   
   .first_p_yura{
     position: absolute;
-    width: 130px;
-    
     left: 175px;
   
   
@@ -383,8 +373,6 @@ background: #292929;
   
   .second_h1_yura{
     position: absolute;
-    width: 58px;
-    
     left: 129px;
   
   
@@ -401,9 +389,7 @@ background: #292929;
   
   .second_p_yura{
     position: absolute;
-width: 148px;
-
-left: 129px;
+  left: 129px;
     
     
     font-family: Roboto;
@@ -423,9 +409,9 @@ left: 129px;
   }
   .third_h1_yura{
     position: absolute;
-width: 76px;
 
-left: 394px;
+
+  left: 394px;
   
 padding-top: 0px;
   
@@ -442,9 +428,7 @@ padding-top: 0px;
   
   .third_p_yura{
     position: absolute;
-width: 152px;
-
-left: 394px;
+  left: 394px;
   
 padding-top: 40px;
   
@@ -460,9 +444,7 @@ padding-top: 40px;
   
   .third_p1_yura{
     position: absolute;
-width: 106px;
-
-left: 394px;
+  left: 394px;
   padding-top: 60px;
   font-family: Roboto;
   font-style: normal;
@@ -476,7 +458,7 @@ left: 394px;
   .div4_yura{
     display: flex;
     justify-content: space-around;
-    width: 50px;
+    
     margin-left: 450px;
     margin-top: 107px;
     color: white;
@@ -487,17 +469,15 @@ left: 394px;
     width: 30px;
     height: 2px;
     left: 394px;
-  
-  
   background-color: #D2AC47;
   border-radius: 2px;
   }
   
   .four_h1_yura{
     position: absolute;
-width: 250px;
-height: 16px;
-left: 129px;
+
+  height: 16px;
+  left: 129px;
   
   padding-top: 70px;
   font-family: Roboto;
@@ -513,9 +493,8 @@ left: 129px;
   
   .div6_yura input{
     position: absolute;
-width: 270px;
-height: 50px;
-left: 129px;
+  height: 50px;
+  left: 129px;
   margin-top: 100px;
   background: #292929;
   color: grey;
@@ -532,9 +511,9 @@ left: 129px;
   
   .div7_yura input{
     position: absolute;
-width: 200px;
-height: 50px;
-left: 411px;
+  width: 200px;
+  height: 50px;
+  left: 411px;
   margin-top: 100px;
   border: black;
   background: #D2AC47;
@@ -551,17 +530,12 @@ left: 411px;
   
   .third_yura{
     position: absolute;
-width: 768px;
-
-top: 750px;
-  
-  background: #111111;
-    
+  width: 100%;
+  top: 750px;
+  background: #111111; 
   }
   
   .third_yura h1{
-    
-  
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -583,7 +557,7 @@ top: 750px;
   
   .hr1_yura{
     position: absolute;
-width: 72px;
+
 height: 2px;
 left: 143px;
     border: none;
@@ -594,7 +568,6 @@ left: 143px;
   .h1_yura{
     position: absolute;
 width: 892px;
-
 left: 246px;;
 top: 50px;
 
@@ -627,25 +600,19 @@ color: #212121;
   }
   .second_yura{
     position: absolute;
-width: 1280px;
+width: 100%;
 height: 302px;
-
 top: 300px;
 
 background: #292929;
   }
   
   .div1_yura{
-   
     padding: 50px;
   }
   .first_h1_yura{
     position: absolute;
-width: 40px;
-
 left: 142px;
-  
-  
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -658,8 +625,6 @@ left: 142px;
   
   .first_p_yura{
     position: absolute;
-width: 150px;
-
 left: 188px;
   
   
@@ -677,8 +642,6 @@ left: 188px;
   
   .second_h1_yura{
     position: absolute;
-width: 58px;
-
 left: 142px;
   
   
@@ -695,8 +658,6 @@ left: 142px;
   
   .second_p_yura{
     position: absolute;
-width: 148px;
-
 left: 142px;
     
     
@@ -713,10 +674,7 @@ left: 142px;
   }
   .third_h1_yura{
     position: absolute;
-width: 76px;
-
-left: 397px;
-  
+  left: 397px;
   
   font-family: Roboto;
   font-style: normal;
@@ -731,10 +689,7 @@ left: 397px;
   
   .third_p_yura{
     position: absolute;
-width: 152px;
-
-left: 397px;
-  
+  left: 397px;
   
   font-family: Roboto;
   font-style: normal;
@@ -748,9 +703,8 @@ left: 397px;
   
   .third_p1_yura{
     position: absolute;
-width: 106px;
 
-left: 397px;
+  left: 397px;
   
   
   font-family: Roboto;
@@ -765,27 +719,23 @@ left: 397px;
   .div4_yura{
     display: flex;
     justify-content: space-around;
-    width: 50px;
     margin-left:450px;
     margin-top: 105px;
     color: white;   
 }
 
   .hr2_yura{
-    border: none;
-    position: absolute;
-width: 30px;
-height: 2px;
-left: 397px;
- 
-  
+  border: none;
+  position: absolute;
+  height: 2px;
+  left: 397px;
+
   background-color: #D2AC47;
   border-radius: 2px;
   }
   
   .four_h1_yura{
     position: absolute;
-width: 250px;
 
 left: 655px;
   top: 60px;
@@ -841,8 +791,7 @@ left: 937px;
   
   .third_yura{
     position: absolute;
-width: 1280px;
-
+width: 100%;
 top: 600px;
   
   background: #111111;
